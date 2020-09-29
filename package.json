@@ -1,27 +1,32 @@
-{        
-    "name": "sanity",
-    "displayName": "Sanity",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": ">=0.9.0-pre.1"
-    },
-    "icon": "icon.png",
-    "description": "A color theme that won't burn your retinas.",
-    "publisher": "therealmdx97",
-    "bugs": {
-        "url": "https://github.com/mdx97/Sanity/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/mdx97/Sanity"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Sanity",
-                "uiTheme": "vs-dark",
-                "path": "./themes/sanity.json"
-            }
-        ]
-    }
+{
+	"name": "sanity",
+	"displayName": "Sanity",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": ">=0.9.0-pre.1"
+	},
+	"icon": "icon.png",
+	"description": "A color theme that won't burn your retinas.",
+	"publisher": "therealmdx97",
+	"bugs": {
+		"url": "https://github.com/mdx97/Sanity/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mdx97/Sanity"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Sanity",
+				"uiTheme": "vs-dark",
+				"path": "./themes/sanity.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "43486ef9-997e-4df6-82fb-4db5d24b68da",
+		"publisherDisplayName": "mdx97",
+		"publisherId": "b1fb1ff9-a271-464f-9757-6e9fe5f82b03"
+	}
 }
