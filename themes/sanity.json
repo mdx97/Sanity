@@ -1,0 +1,116 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "Sanity (Marine)",
+    "type": "dark",
+    "colors": {
+        "activityBar.activeBackground": "#002028",
+        "activityBar.activeBorder": "#365672",
+        "activityBar.foreground": "#a1a18b",
+        "activityBar.background": "#002028",
+        "activityBar.border": "#002028",
+        "dropdown.background": "#002028",
+        "dropdown.border": "#002028",
+        "dropdown.foreground": "#a1a18b",
+        "dropdown.listBackground": "#001018",
+        "editor.background": "#001018",
+        "editor.foreground": "#a1a18b",
+        "editorCursor.foreground": "#a1a18b",
+        "editorGroupHeader.tabsBackground": "#002028",
+        "editorHoverWidget.background": "#001018",
+        "editorHoverWidget.border": "#365672",
+        "editorHoverWidget.foreground": "#a1a18b",
+        "input.background": "#002028",
+        "input.foreground": "#a1a18b",
+        "sideBar.background": "#002028",
+        "sideBar.border": "#002028",
+        "sideBar.foreground": "#a1a18b",
+        "sideBarTitle.foreground": "#a1a18b",
+        "statusBar.background": "#002028",
+        "statusBar.border": "#002028",
+        //"statusBar.debuggingBackground": "#cb4b16",
+        //"statusBar.debuggingForeground": "#eee8d5",
+        "statusBar.foreground": "#a1a18b",
+        "statusBar.noFolderBackground": "#002028",
+        "statusBarItem.remoteBackground": "#002028",
+        "tab.activeBackground": "#001018",
+        "tab.activeForeground": "#d3d3bd",
+        "tab.border": "#002028",
+        "tab.inactiveBackground": "#002028",
+        "tab.inactiveForeground": "#a1a18b",
+        "terminal.foreground": "#a1a18b",
+        "titleBar.activeBackground": "#002028",
+        "titleBar.activeForeground": "#d3d3bd",
+        "titleBar.inactiveBackground": "#002028",
+        "titleBar.inactiveForeground": "#a1a18b",
+    },
+    "tokenColors": [
+        {
+            "scope": [
+                "comment"
+            ],
+            "settings": {
+                "foreground": "#76787a"
+            }
+        },
+        {
+            "scope": [
+                "keyword.control",
+                "storage.type",
+                "storage.modifier.specifier",
+                "variable.language.this",
+                "constant.language.nullptr",
+                "storage.modifier.inline",
+                "keyword.other.typedef",
+                "storage.modifier.static",
+                "support.type.basic.gdscript"
+
+            ],
+            "settings": {
+                "foreground": "#6baa81"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.type",
+                "storage.modifier.sqf",
+                "entity.other.inherited-class.gdscript"
+            ],
+            "settings": {
+                "foreground": "#6b91aa"
+            }
+        },
+        {
+            "scope": [
+                "string"
+            ],
+            "settings": {
+                "foreground": "#75755F"
+            }
+        },
+        {
+            "scope": [
+                "constant.numeric.decimal",
+                "constant.numeric.sqf",
+                "constant.language.true",
+                "constant.language.false",
+                "constant.language.boolean",
+                "constant.language.gdscript",
+                "constant.numeric.integer.gdscript",
+                "constant.numeric.float.gdscript"
+            ],
+            "settings": {
+                "foreground": "#aa9c6b"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.type.variant.gdscript",
+                "meta.bracket.square.access",
+                "keyword.operator"
+            ],
+            "settings": {
+                "foreground": "#a1a18b"
+            }
+        }
+    ]
+}
