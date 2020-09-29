@@ -2,7 +2,7 @@
 
 A color theme that won't burn your retinas.
 
-![Example](example.png)
+![Screenshot](screenshot.png)
 
 ## About
 
